@@ -13,6 +13,11 @@ body {
   padding: 5px 10px;
 }
 
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+}
+
 .nav-item {
   color: white;
 }
@@ -39,7 +44,7 @@ body {
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 800;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .information-section {
