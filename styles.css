@@ -1,7 +1,10 @@
+html,
 body {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 400;
   background-color: white;
+  max-width: auto;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -16,11 +19,11 @@ body {
 
 #header-section {
   background-color: #1f2937;
-  color: rgb(255, 255, 255);
+  color: #f9faf8;
 }
 
 .header-text {
-  color: rgb(255, 255, 255, 0.7);
+  color: #e5e7eb;
   font-size: 1.25rem;
 }
 
@@ -30,7 +33,7 @@ body {
 }
 
 .header-img {
-  max-width: 75%;
+  width: 500px;
 }
 
 h1 {
@@ -40,24 +43,73 @@ h1 {
 }
 
 .information-section {
-  padding: 8% 15%;
+  color: #1f2937;
+  padding: 3% 18%;
+}
+
+.info-card {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+  color: #1f2937;
 }
 
 h2 {
   font-family: "Merriweather Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2.5rem;
+  padding-bottom: 5%;
 }
 
 .card-img-top {
   object-fit: cover;
   overflow: hidden;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border: 3px solid #3882f6;
+}
+
+#quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 7% 20%;
 }
 
 .quote {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.25;
+}
+
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.cta-card {
+  margin: 6% 13%;
+  padding: 3% 5%;
+  color: #f9faf8;
+  line-height: 1;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 30%;
+}
+
+#footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
 }
